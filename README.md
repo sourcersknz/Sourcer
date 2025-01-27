@@ -94,12 +94,15 @@ Window:Notify({
 	Duration = 5
 })
 ```
-
 ## Create Tab
-```lua local ExampleTab = Window:AddTab({
+```lua
+local ExampleTab = Window:AddTab({
 	Title = 'Example',
 	Icon = 'home',
-});```
+});
+```
+
+
 
 ## Create Block
 ```lua
